@@ -1,0 +1,31 @@
+// ===================================
+// Root object
+// ===================================
+$body-text: 15px;
+
+// ===================================
+// Warna
+// ===================================
+$color-primary: #6200ee;
+$color-secondary: #280e30;
+$color-light: #fff;
+$color-background: #f0f0f8;
+$color-text: #000;
+
+// $spacer: 1rem !default;
+// $spacers: () !default;
+// $spacers: map-merge((
+//   0: 0,
+//   1: ($spacer * .25),
+//   2: ($spacer * .5),
+//   3: $spacer,
+//   4: ($spacer * 1.5),
+//   5: ($spacer * 3)
+// ), $spacers);
+
+// ===================================
+// PX to REM
+// ===================================
+@function calcRem($target) {
+  @return ($target / $body-text) * 1rem;
+}

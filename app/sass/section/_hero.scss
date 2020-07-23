@@ -1,0 +1,13 @@
+.hero {
+  background: no-repeat center center;
+  background-size: cover;
+  padding: 7rem 0;
+  color: #fff;
+  position: relative;
+  line-height: 1.36;
+
+  h1 {
+    font-size: calcRem(50px);
+    font-weight: 700;
+  }
+}

@@ -1,0 +1,11 @@
+.headline {
+  &-section {
+    font-size: calcRem(30px);
+    font-weight: 700;
+  }
+}
+
+.main-text {
+  color: $color-primary;
+  font-weight: 700;
+}
