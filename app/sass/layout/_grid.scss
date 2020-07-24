@@ -28,10 +28,6 @@ $half-gutter-width: $gutter-width * 0.5;
   flex-wrap: wrap;
   margin-right: -0.5rem;
   margin-left: -0.5rem;
-
-  &.reverse {
-    flex-direction: row-reverse;
-  }
 }
 
 %col {
@@ -39,16 +35,6 @@ $half-gutter-width: $gutter-width * 0.5;
   flex: 0 0 auto;
   padding-right: $half-gutter-width;
   padding-left: $half-gutter-width;
-}
-
-.col {
-  -ms-flex-preferred-size: 0;
-  flex-basis: 0;
-  -webkit-box-flex: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  max-width: 100%;
-  @extend %col;
 }
 
 @each $i in 3, 6, 9, 12 {

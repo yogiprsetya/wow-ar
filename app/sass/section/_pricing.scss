@@ -1,7 +1,4 @@
 .pricing {
-  // background: $color-light;
-  padding: 7rem 0;
-
   h3 {
     font-size: calcRem(50px);
     line-height: calcRem(50px);
@@ -22,4 +19,10 @@
     font-weight: 700;
     margin-bottom: 15px;
   }
+}
+
+.case-study {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background: #fff;
 }
