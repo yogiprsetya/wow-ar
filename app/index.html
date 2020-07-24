@@ -3,23 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>WoW AR - Your Future Partner</title>
 
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
   <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-  <header>
+  <header id="top">
     <div class="container">
       <div class="logo">
-        WoW-AR
+        <img src="/image/logo-vertical.png" />
       </div>
 
       <nav id="nav" class="topnav">
-        <a href="#home">Home</a>
-        <a href="#news">News</a>
+        <a href="/">Home</a>
+        <a href="#product">Product</a>
         <a href="#contact">Contact</a>
-        <a href="#about">About</a>
         <a href="javascript:void(0);" class="icon" onclick="expandNav()">
           <svg height="32" viewBox="0 0 12 16" version="1.1" width="32"><path fill-rule="evenodd" d="M11.41 9H.59C0 9 0 8.59 0 8c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zm0-4H.59C0 5 0 4.59 0 4c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zM.59 11H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1H.59C0 13 0 12.59 0 12c0-.59 0-1 .59-1z"></path></svg>
         </a>
@@ -28,7 +27,7 @@
   </header>
 
   <main>
-    <section class="hero mb-5" style="background-image: url('/image/hero.jpg');">
+    <section class="hero" style="background-image: url('/image/hero.jpg');">
       <div class="container">
         <div class="row">
           <div class="col-md-7 col-12">
@@ -39,29 +38,68 @@
       </div>
     </section>
 
-    <section class="container mt-5 text-center">
+    <section id="product" class="container text-center">
       <p class="main-text">WHAT WE OFFER</p>
       <h2 class="headline-section mt-3 mb-5">Plunge headlong into the virtual reality</h2>
 
       <div class="row">
-        <div class="col-3">
-          <img src="/image/service-1.jpg" alt="service-1">
+        <div class="col-6 col-md-3">
+          <img class="max-width" src="/image/service-1.jpg" alt="service-1">
+          <h2 class="headline-sub">3D Learning</h2>
         </div>
 
-        <div class="col-3">
-          <img src="/image/service-2.jpg" alt="service-2">
+        <div class="col-6 col-md-3">
+          <img class="max-width" src="/image/service-2.jpg" alt="service-2">
+          <h2 class="headline-sub">Animted AR</h2>
         </div>
 
-        <div class="col-3">
-          <img src="/image/service-3.jpg" alt="service-3">
+        <div class="col-6 col-md-3">
+          <img class="max-width" src="/image/service-3.jpg" alt="service-3">
+          <h2 class="headline-sub">Live Decor</h2>
         </div>
 
-        <div class="col-3">
-          <img src="/image/service-4.jpg" alt="service-4">
+        <div class="col-6 col-md-3">
+          <img class="max-width" src="/image/service-4.jpg" alt="service-4">
+          <h2 class="headline-sub">Interactive Maps</h2>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid">
+      <div class="row">
+        <div class="col-md-5">
+          <img class="max-width" src="/image/ar-book.jpg" />
+        </div>
+
+        <div class="col-md-7">
+          <h2 class="headline-section mt-3 mb-5">Let your creative juices flow with VRLand Experience</h2>
+
+          <p>We specialize in AR development – this sector offers innovative solutions and products which allow your business to grow. What we do?</p>
+          <p>We develop AR applications which increase the prestige of your company and help reach appropriate status among competition. Success needs to be manifested in an extraordinary way.</p>
+        
+          <button class="btn btn-primary mt-5">Case Studies</button>
         </div>
       </div>
     </section>
   </main>
+
+  <footer class="container-fluid p-5">
+    <div class="row">
+      <div class="col-9">
+        <div class="footer-logo">
+          <img src="/image/logo.png" />
+        </div>
+
+        <div class="copyright">
+          <p>© 2019 VRLand Ltd.<br>All rights reserved.</p>
+          </div>
+      </div>
+
+      <div class="col-3">
+        <a href="#top" class="btn btn-primary circle">Top</a>
+      </div>
+    </div>
+  </footer>
 
   <script src="js/script.js"></script>
 </body>

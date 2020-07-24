@@ -6,15 +6,9 @@ header {
     display: flex;
     align-items: center;
     position: relative;
-
-    img {
-      height: 80px;
-    }  
   }
 
   .logo {
-    font-weight: 600;
-    font-size: calcRem(22px);
     position: absolute;
   }
 }
