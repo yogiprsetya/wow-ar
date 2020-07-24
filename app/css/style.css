@@ -4,30 +4,41 @@
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+}
 
 *, ::after, ::before {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 html {
-  font-size: 15px; }
+  font-size: 15px;
+}
 
 body {
   font-family: 'Roboto', sans-serif;
   overflow-x: hidden;
   color: #000;
   line-height: 1.5;
-  background: #f0f0f8; }
+  background: #f0f0f8;
+}
 
 .max-width {
   max-width: 100%;
-  height: auto; }
+  height: auto;
+}
 
 section {
-  margin-bottom: 7rem; }
+  margin-bottom: 7rem;
+}
 
 p {
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+}
+
+ul {
+  margin-left: 20px;
+}
 
 .btn {
   cursor: pointer;
@@ -43,46 +54,70 @@ p {
   font-size: 1.33333rem;
   font-weight: 700;
   line-height: 60px;
-  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.29); }
-  .btn-primary {
-    background: #6200ee; }
-  .btn-secondary {
-    background: #280e30; }
-  .btn.circle {
-    font-weight: 400;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    padding: 0;
-    font-size: 1.06667rem;
-    text-decoration: none;
-    float: right;
-    line-height: 50px; }
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.29);
+}
+
+.btn-primary {
+  background: #6200ee;
+}
+
+.btn-secondary {
+  background: #280e30;
+}
+
+.btn.circle {
+  font-weight: 400;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  font-size: 1.06667rem;
+  text-decoration: none;
+  float: right;
+  line-height: 50px;
+}
+
+.btn-small {
+  line-height: 50px;
+  padding: 0 1.2rem;
+}
 
 .headline-section {
   font-size: 2rem;
-  font-weight: 700; }
+  font-weight: 700;
+}
 
 .headline-sub {
   font-size: 1.33333rem;
-  font-weight: 700; }
+  font-weight: 700;
+}
+
+.headline-sub-box {
+  background: #280e30;
+  color: #fff;
+  padding: 10px;
+}
 
 .main-text {
   color: #6200ee;
-  font-weight: 700; }
+  font-weight: 700;
+}
 
 .container, .container-fluid {
   margin-right: auto;
-  margin-left: auto; }
+  margin-left: auto;
+}
 
 .container {
   padding-right: 1rem;
-  padding-left: 1rem; }
+  padding-left: 1rem;
+}
 
 .container-fluid {
   width: 100%;
   padding-right: 2rem;
-  padding-left: 2rem; }
+  padding-left: 2rem;
+}
 
 .row {
   box-sizing: border-box;
@@ -91,15 +126,19 @@ p {
   flex-direction: row;
   flex-wrap: wrap;
   margin-right: -0.5rem;
-  margin-left: -0.5rem; }
-  .row.reverse {
-    flex-direction: row-reverse; }
+  margin-left: -0.5rem;
+}
+
+.row.reverse {
+  flex-direction: row-reverse;
+}
 
 .col, .col-3, .col-6, .col-9, .col-12 {
   box-sizing: border-box;
   flex: 0 0 auto;
   padding-right: 0.5rem;
-  padding-left: 0.5rem; }
+  padding-left: 0.5rem;
+}
 
 .col {
   -ms-flex-preferred-size: 0;
@@ -107,127 +146,183 @@ p {
   -webkit-box-flex: 1;
   -ms-flex-positive: 1;
   flex-grow: 1;
-  max-width: 100%; }
+  max-width: 100%;
+}
 
 .col-3 {
   flex-basis: 25%;
   max-width: 25%;
   padding-right: 15px;
-  padding-left: 15px; }
+  padding-left: 15px;
+}
 
 .col-6 {
   flex-basis: 50%;
   max-width: 50%;
   padding-right: 15px;
-  padding-left: 15px; }
+  padding-left: 15px;
+}
 
 .col-9 {
   flex-basis: 75%;
   max-width: 75%;
   padding-right: 15px;
-  padding-left: 15px; }
+  padding-left: 15px;
+}
 
 .col-12 {
   flex-basis: 100%;
   max-width: 100%;
   padding-right: 15px;
-  padding-left: 15px; }
+  padding-left: 15px;
+}
 
 @media only screen and (min-width: 1200px) {
   .container {
-    width: 1140px !important; }
-  .col-md-3, .col-md-5, .col-md-7 {
+    width: 1140px !important;
+  }
+  .col-md-3, .col-md-4, .col-md-5, .col-md-7, .col-md-8 {
     box-sizing: border-box;
     flex: 0 0 auto;
     padding-right: 0.5rem;
-    padding-left: 0.5rem; }
+    padding-left: 0.5rem;
+  }
   .col-md-3 {
     flex-basis: 25%;
     max-width: 25%;
     padding-right: 15px;
-    padding-left: 15px; }
+    padding-left: 15px;
+  }
+  .col-md-4 {
+    flex-basis: 33.33333%;
+    max-width: 33.33333%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
   .col-md-5 {
     flex-basis: 41.66667%;
     max-width: 41.66667%;
     padding-right: 15px;
-    padding-left: 15px; }
+    padding-left: 15px;
+  }
   .col-md-7 {
     flex-basis: 58.33333%;
     max-width: 58.33333%;
     padding-right: 15px;
-    padding-left: 15px; } }
+    padding-left: 15px;
+  }
+  .col-md-8 {
+    flex-basis: 66.66667%;
+    max-width: 66.66667%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
 
 .mt-3 {
-  margin-top: 1rem; }
+  margin-top: 1rem;
+}
 
 .mt-5 {
-  margin-top: 3rem; }
+  margin-top: 3rem;
+}
 
 .mb-5 {
-  margin-bottom: 3rem; }
+  margin-bottom: 3rem;
+}
+
+.mb-3 {
+  margin-bottom: 1rem;
+}
 
 .p-5 {
-  padding: 3rem; }
+  padding: 3rem;
+}
+
+.p-3 {
+  padding: 1rem;
+}
 
 .text-center {
-  text-align: center; }
+  text-align: center;
+}
 
 header {
-  background-color: white; }
-  header .container {
-    height: 80px;
-    display: flex;
-    align-items: center;
-    position: relative; }
-  header .logo {
-    position: absolute; }
+  background-color: white;
+}
+
+header .container {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+header .logo {
+  position: absolute;
+}
 
 .topnav {
   overflow: hidden;
   width: 100%;
   height: 80px;
   display: flex;
-  justify-content: flex-end; }
+  justify-content: flex-end;
+}
+
+.topnav a {
+  display: inline-block;
+  color: #000;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.13333rem;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+}
+
+.topnav a svg {
+  fill: #000;
+}
+
+.topnav .icon {
+  display: none;
+  padding: 0;
+}
+
+@media screen and (max-width: 600px) {
   .topnav a {
-    display: inline-block;
-    color: #000;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 1.13333rem;
-    display: flex;
-    align-items: center;
-    font-weight: 700; }
-    .topnav a svg {
-      fill: #000; }
-  .topnav .icon {
     display: none;
-    padding: 0; }
-  @media screen and (max-width: 600px) {
-    .topnav a {
-      display: none; }
-    .topnav a.icon {
-      float: right;
-      display: flex; }
-    .topnav.responsive {
-      position: absolute;
-      background-color: #000;
-      height: auto;
-      display: block;
-      top: 20px;
-      width: 70%;
-      right: 15px;
-      z-index: 1; }
-      .topnav.responsive .icon {
-        position: absolute;
-        right: 0;
-        top: 0; }
-      .topnav.responsive a {
-        float: none;
-        display: block;
-        text-align: left;
-        color: #fff; }
-        .topnav.responsive a svg {
-          fill: #fff; } }
+  }
+  .topnav a.icon {
+    float: right;
+    display: flex;
+  }
+  .topnav.responsive {
+    position: absolute;
+    background-color: #000;
+    height: auto;
+    display: block;
+    top: 20px;
+    width: 70%;
+    right: 15px;
+    z-index: 1;
+  }
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    color: #fff;
+  }
+  .topnav.responsive a svg {
+    fill: #fff;
+  }
+}
 
 .hero {
   background: no-repeat center center;
@@ -235,16 +330,60 @@ header {
   padding: 9rem 0;
   color: #fff;
   position: relative;
-  line-height: 1.36; }
-  .hero h1 {
-    font-size: 3.33333rem;
-    font-weight: 700; }
+  line-height: 1.36;
+}
+
+.hero h1 {
+  font-size: 3.33333rem;
+  font-weight: 700;
+}
+
+.pricing {
+  padding: 7rem 0;
+}
+
+.pricing h3 {
+  font-size: 3.33333rem;
+  line-height: 3.33333rem;
+}
+
+.pricing li {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.pricing .card {
+  background: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.17);
+}
+
+.pricing h4 {
+  font-size: 1.33333rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.headline-box {
+  background: #6200ee;
+  padding: 5rem 0;
+}
+
+.headline-box h1 {
+  font-size: 3.33333rem;
+  font-weight: 700;
+  color: #fff;
+}
 
 footer {
-  background: #fff; }
-  footer .footer-logo {
-    float: left;
-    overflow: auto;
-    margin-right: 12px; }
-  footer .copyright {
-    overflow: auto; }
+  background: #fff;
+}
+
+footer .footer-logo {
+  float: left;
+  overflow: auto;
+  margin-right: 12px;
+}
+
+footer .copyright {
+  overflow: auto;
+}

@@ -1,0 +1,25 @@
+.pricing {
+  // background: $color-light;
+  padding: 7rem 0;
+
+  h3 {
+    font-size: calcRem(50px);
+    line-height: calcRem(50px);
+  }
+
+  li {
+    font-size: calcRem(18px);
+    color: #555;
+  }
+
+  .card {
+    background: $color-light;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.17);
+  }
+
+  h4 {
+    font-size: calcRem(20px);
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+}

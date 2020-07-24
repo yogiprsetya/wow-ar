@@ -26,7 +26,7 @@ gulp.task('sass', function(){
 
   return gulp.src('./app/sass/main.scss')
     .pipe(plumber({errorHandler: onError}))
-    .pipe(sass({ outputStyle: 'nested' }))
+    .pipe(sass({ outputStyle: 'expanded' }))
     .pipe(concat('style.css'))
     .pipe(gulp.dest('./app/css'))
 });

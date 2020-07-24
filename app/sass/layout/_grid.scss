@@ -73,7 +73,7 @@ $half-gutter-width: $gutter-width * 0.5;
     padding-left: $half-gutter-width;
   }
 
-  @each $i in 3, 5, 7 {
+  @each $i in 3, 4, 5, 7, 8 {
     .col-md-#{$i} {
       @extend %col-md;
       flex-basis: $i / 12 * 100%;

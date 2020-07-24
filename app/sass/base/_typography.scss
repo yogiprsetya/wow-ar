@@ -8,6 +8,12 @@
     font-size: calcRem(20px);
     font-weight: 700;
   }
+
+  &-sub-box {
+    background: $color-secondary;
+    color: #fff;
+    padding: 10px;
+  }
 }
 
 .main-text {

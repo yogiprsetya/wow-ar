@@ -1,0 +1,10 @@
+.headline-box {
+  background: $color-primary;
+  padding: 5rem 0;
+
+  h1 {
+    font-size: calcRem(50px);
+    font-weight: 700;
+    color: $color-light;
+  }
+}
